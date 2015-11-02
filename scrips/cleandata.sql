@@ -1,5 +1,5 @@
 --create database chiffon
-use chiffon
+use chiffon;
 drop table chiffon__company1;
 create table chiffon__company1
 as

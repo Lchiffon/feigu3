@@ -5,7 +5,7 @@ hive -f cleandata.sql
 
 hive -e "SELECT * from chiffon.chiffon__company3" > ../data/train.txt
 
-R train.R
+R -f train.R
 
 
 ## pySpark
